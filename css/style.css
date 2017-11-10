@@ -1,0 +1,30 @@
+.wrapper {
+  width: 1170px;
+}
+
+.social {
+  width: 100%;
+  height: 30px;
+  background-color: #f5f7fa;
+  position: relative;
+}
+
+.email {
+  display: inline-block;
+}
+
+.tel {
+  display: inline-block;
+}
+
+.sns {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+}
+
+
+
+.navibar > ul > li {
+  display: inline-block;
+}
