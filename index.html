@@ -13,29 +13,32 @@
 <body>
   <div class="wrapper">
     <header>
-      <div class="social">
-        <div class="contact">
-          <div class="email">
-            <img src="img/header/icon-mail-off.png" alt>
-            <span>info@reen.com</span>
-          </div>
-          <div class="tel">
-            <img src="img/header/icon-tel-off.png" alt>
-            <span>+00(123)456 78 90</span>
-          </div>
-        </div>
-        <div class="sns">
-          <img src="img/header/icon-facebook-off.png" alt>
-          <img src="img/header/icon-google-off.png" alt>
-          <img src="img/header/icon-twitter-off.png" alt>
-          <img src="img/header/icon-pinterest-off.png" alt>
-          <img src="img/header/icon-behance-off.png" alt>
-          <img src="img/header/icon-dribbble-off.png" alt>
-        </div>
-
+      <div class="social clearfix">
+        <div class="social__left">
+          <address class="contact">
+            <div class="contact__contents">
+              <p><img src="img/header/icon-mail-off.png" alt></p>
+              <p>info@reen.com</p>
+            </div>
+            <div class="contact__contents">
+              <P><img src="img/header/icon-tel-off.png" alt></P>
+              <p>+00(123)456 78 90</p>
+            </div>
+          </address>
+        </div><!-- end social__left -->
+        <div class="social__right">
+          <ul class="sns">
+            <li><a href="#"><img class="sns__link" src="img/header/icon-facebook-off.png" alt></a></li>
+            <li><a href="#"><img class="sns__link" src="img/header/icon-google-off.png" alt></a></li>
+            <li><a href="#"><img class="sns__link" src="img/header/icon-twitter-off.png" alt></a></li>
+            <li><a href="#"><img class="sns__link" src="img/header/icon-pinterest-off.png" alt></a></li>
+            <li><a href="#"><img class="sns__link" src="img/header/icon-behance-off.png" alt></a></li>
+            <li><a href="#"><img class="sns__link" src="img/header/icon-dribbble-off.png" alt></a></li>
+          </ul>
+        </div><!-- end social__right -->
       </div>
       <nav class="navibar">
-        <ul>
+        <ul class="navibar__contents">
           <li><a href="#"><img src="img/header/logo.png" alt></a></li>
           <li><a href="#">HOME</a></li>
           <li><a href="#">PORTFOLIO</a></li>
