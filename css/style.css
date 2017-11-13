@@ -5,11 +5,13 @@
 
 .clearfix::before,
 .clearfix::after {
-  content:'';
+  content: '';
   clear: both;
   display: block;
 }
-
+/* ==========================================
+  header
+========================================== */
 .social {
   width: 100%;
   background-color: #f5f7fa;
@@ -37,14 +39,39 @@
   margin: 0 13px;
 }
 
-.contact__contents > p {
+.email__icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 15px;
+  margin-right: 5px;
+  background: url(../img/header/icon-mail-on.png) no-repeat;
+}
+
+.tel__icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 15px;
+  margin-right: 5px;
+  background: url(../img/header/icon-tel-on.png) no-repeat;
+}
+
+.email__icon:hover, .tel__icon:hover {
+  background-color: transparent;
+}
+
+.email__icon:hover img, .tel__icon:hover img {
+  visibility: hidden;
+}
+
+.contact__contents__txt {
+  color: #506a85;
   display: inline-block;
   vertical-align: middle;
   height: 15px;
 }
 
-.contact__contents > p > img {
-  margin-right: 5px;
+.contact__contents__txt:hover {
+  color: #00bc9c;
 }
 
 .sns > li {
