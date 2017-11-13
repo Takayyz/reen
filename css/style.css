@@ -10,19 +10,19 @@
   display: block;
 }
 /* ==========================================
-  header
+  header_contact
 ========================================== */
 .social {
   width: 100%;
   background-color: #f5f7fa;
   position: relative;
   text-align: center;
-  padding: 10px;
 }
 
 .social__left {
   float: left;
   width: 50%;
+  margin: 10px 0;
 }
 
 .social__right {
@@ -74,9 +74,66 @@
   color: #00bc9c;
 }
 
-.sns > li {
-  margin: 0 13px;
+/* ==========================================
+  header_sns
+========================================== */
+.sns__link {
+  height: 35px;
+}
+
+.sns__link > li {
   display: inline-block;
+  cursor: pointer;
+  height: 35px;
+  width: 32px;
+  position: relative;
+}
+
+.sns__link > li:hover img:first-child {
+  visibility: hidden;
+}
+
+.sns__content {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.sns__link__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.front__icon {
+  z-index: 1;
+}
+
+.sns__link__fb:hover {
+  background-color: #4668b3;
+}
+
+.sns__link__ggl:hover {
+  background-color: #de5745;
+}
+
+.sns__link__twt:hover {
+  background-color: #2fbbed;
+}
+
+.sns__link__pinter:hover {
+  background-color: #d94348;
+}
+
+.sns__link__behance:hover {
+  background-color: #3079ff;
+}
+
+.sns__link__drbl:hover {
+  background-color: #eb6397;
 }
 
 .navibar {
