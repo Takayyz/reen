@@ -147,17 +147,44 @@
 ========================================== */
 .navibar {
   text-align: center;
+  padding: 40px 0;
+  height: 42px;
+}
+
+.navibar__box {
+  position: relative;
+  height: 100%;
 }
 
 .logo {
   display: inline-block;
   opacity: 0.6;
+  position: absolute;
+  left: 169px;
 }
 
 .navibar__contents {
   display: inline-block;
+  position: absolute;
+  top: 17px;
+  left: 416px;
+  text-align: left;
 }
 
 .navibar__contents > li {
   display: inline-block;
+  margin-left: 44px;
+}
+
+.navibar__contents > li:first-child {
+  margin-left: 0;
+}
+
+.navibar__content {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.navibar__content:hover {
+  color: #00bc9b;
 }
