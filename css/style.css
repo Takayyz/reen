@@ -32,11 +32,17 @@
 
 .contact {
   font-size: 12px;
+  width: 247px;
+  margin: 0 auto;
 }
 
 .contact__contents {
   display: inline-block;
-  margin: 0 13px;
+  margin-left: 26px;
+}
+
+.contact__contents:first-child {
+  margin-left: 0;
 }
 
 .email__icon {
@@ -136,8 +142,20 @@
   background-color: #eb6397;
 }
 
+/* ==========================================
+  header_navi
+========================================== */
 .navibar {
   text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  opacity: 0.6;
+}
+
+.navibar__contents {
+  display: inline-block;
 }
 
 .navibar__contents > li {
