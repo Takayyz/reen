@@ -323,3 +323,57 @@
 .row3 {
   background: #f5f7fa;
 }
+
+.work__lg {
+  margin-bottom: 80px;
+}
+
+.work__main {
+  float: left;
+  background: #fff;
+  margin-left: 30px;
+}
+
+.work__main:first-child {
+  margin-left: 0;
+}
+
+.overlay {
+  background: #00bc9c;
+  /*opacity: 0;*/
+}
+
+.work__img {
+  vertical-align: bottom;
+  opacity: 1;
+}
+
+.work__main:hover img {
+  opacity: 0.1;
+}
+
+.work__main__title {
+  font-size: 20px;
+}
+
+.work__main:hover .work__main__title {
+  color: #00bc9c;
+}
+
+.work__main__txt {
+  font-size: 14px;
+}
+
+.work__sub {
+  float:left;
+  margin-left: 30px;
+}
+
+.work__sub:first-child {
+  margin-left: 0;
+}
+
+.work__sub:hover img {
+  opacity: 0.1;
+}
+
