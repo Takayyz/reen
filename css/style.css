@@ -273,7 +273,7 @@
 
 .content__box {
   display: inline-block;
-  width: 300px;
+  width: 350px;
 }
 
 .content__icon {
@@ -282,10 +282,21 @@
 
 .row2__content__right {
   float: left;
-  width: 239px;
   box-sizing: border-box;
-  padding: 0 40px;
+  padding: 0 10px 0 40px;
   text-align: left;
+}
+
+.content__passion {
+    width: 289px;
+}
+
+.content__creativity {
+  width: 295px;
+}
+
+.content__quality {
+  width: 294px;
 }
 
 .content__title {
@@ -295,6 +306,7 @@
 
 .row2__content__txt {
   font-size: 14px;
+  line-height: 20px;
 }
 
 /* ==========================================
