@@ -191,6 +191,28 @@
 }
 
 /* ==========================================
+  row: common;
+========================================== */
+.row {
+  width: 100%;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.row__head {
+  font-size: 44px;
+  color: #506a85;
+  margin-bottom: 30px;
+}
+
+.row__head__txt {
+  font-size: 22px;
+  color: #506a85;
+  margin-bottom: 70px;
+  line-height: 35px;
+}
+
+/* ==========================================
   row1: main_conversion
 ========================================== */
 .conversion__box {
@@ -248,23 +270,7 @@
   row2
 ========================================== */
 .row2 {
-  width: 100%;
-  text-align: center;
-  padding: 120px 0;
   background: #fff;
-}
-
-.row2__head {
-  font-size: 44px;
-  color: #506a85;
-  margin-bottom: 30px;
-}
-
-.row2__head__txt {
-  font-size: 22px;
-  color: #506a85;
-  margin-bottom: 70px;
-  line-height: 35px;
 }
 
 .row2__content {
@@ -315,20 +321,5 @@
   row3
 ========================================== */
 .row3 {
-  width: 100%;
-  text-align: center;
   background: #f5f7fa;
-  padding: 120px 0;
-}
-
-.row3__head {
-  font-size: 44px;
-  color: #506a85;
-  margin-bottom: 30px;
-}
-
-.row3__head__txt {
-  font-size: 22px;
-  color: #506a85;
-  margin-bottom: 70px;
 }
