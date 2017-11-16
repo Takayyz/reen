@@ -302,11 +302,13 @@
 .content__title {
   font-size: 26px;
   padding-bottom: 20px;
+  color: #506a85;
 }
 
 .row2__content__txt {
   font-size: 14px;
   line-height: 20px;
+  color: #506a85;
 }
 
 /* ==========================================
