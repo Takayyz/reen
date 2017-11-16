@@ -314,3 +314,21 @@
 /* ==========================================
   row3
 ========================================== */
+.row3 {
+  width: 100%;
+  text-align: center;
+  background: #f5f7fa;
+  padding: 120px 0;
+}
+
+.row3__head {
+  font-size: 44px;
+  color: #506a85;
+  margin-bottom: 30px;
+}
+
+.row3__head__txt {
+  font-size: 22px;
+  color: #506a85;
+  margin-bottom: 70px;
+}
