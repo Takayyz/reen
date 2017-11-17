@@ -9,6 +9,12 @@
   clear: both;
   display: block;
 }
+
+input, button {
+  -webkit-appearance: none;
+  outline: none;
+}
+
 /* ==========================================
   header_contact
 ========================================== */
@@ -278,9 +284,9 @@
   background: #fff;
 }
 
-.row2__content {
+/*.row2__content {
   margin: 0 auto;
-}
+}*/
 
 .content__box {
   display: inline-block;
@@ -344,7 +350,7 @@
 }
 
 .work__main__top {
-  background: #00bc9c;
+  /*background: #00bc9c;*/
   position: relative;
 }
 
@@ -365,11 +371,11 @@
 
 .overlay__txt {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 48%;
+  left: 49%;
 }
 
-.work__main:hover .overlay {
+.work__main:hover .overlay, .footer__latest__works:hover .overlay {
   opacity: 0.9;
 }
 
@@ -395,7 +401,7 @@
 
 .work__sub {
   position: relative;
-  float:left;
+  float: left;
   margin-left: 30px;
 }
 
@@ -421,4 +427,120 @@
 ========================================== */
 .aply__btn {
   width: 170px;
+}
+
+/* ==========================================
+  footer
+========================================== */
+.footer__container {
+  background: #354859;
+  padding: 75px 5px;
+}
+
+.footer__content__box {
+  width: 260px;
+  margin-left: 40px;
+  float: left;
+  text-align: left;
+}
+
+.footer__content__box:first-child {
+  margin-left: 0px;
+}
+
+.footer__content__title {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.footer__logo {
+  margin-bottom: 30px;
+}
+
+.footer__content__txt {
+  color: #a3b1bf;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.team__detail {
+  text-decoration: none;
+  color: #a3b1bf;
+}
+
+.footer__latest__works {
+  display: inline-block;
+  position: relative;
+}
+
+ .works__top {
+  margin-bottom: 3px;
+ }
+
+ .footer__overlay__txt {
+   position: absolute;
+   top: 42%;
+   left: 48%;
+ }
+
+.footer__contact {
+  margin-bottom: 10px;
+  color: #a3b1bf;
+}
+
+.footer__contact__img {
+  margin-right: 5px;
+}
+
+.footer__contact__address {
+  display: inline-block;
+  background: url(../img/footer/icon-address-on.png) no-repeat;
+}
+
+.footer__contact__tel {
+  display: inline-block;
+  background: url(../img/footer/icon-tel-on.png) no-repeat;
+}
+
+.footer__contact__mail {
+  display: inline-block;
+  background: url(../img/footer/icon-mail-on.png) no-repeat;
+}
+
+.footer__contact:hover {
+  background-color: transparent;
+}
+
+.footer__contact:hover img {
+  visibility: hidden;
+}
+
+.footer__contact:hover .footer__contact__txt {
+  color: #00bc9c;
+}
+
+.form__box {
+  position: relative;
+}
+
+.form__txt {
+  border-radius: 3px;
+  width: 260px;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.form__btn {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  background: #00bc9c;
+  border: none;
+  color: #fff;
+  box-shadow: 0 2px #00a085;
+  border-radius: 5px;
+  padding: 5px;
 }
