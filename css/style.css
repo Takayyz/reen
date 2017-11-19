@@ -350,7 +350,6 @@ input, button {
 }
 
 .work__main__top {
-  /*background: #00bc9c;*/
   position: relative;
 }
 
@@ -543,4 +542,28 @@ input, button {
   box-shadow: 0 2px #00a085;
   border-radius: 5px;
   padding: 5px;
+}
+
+.credit {
+  background: #2e3d4c;
+  padding: 30px 5px;
+  color:  #506a85;
+  font-size: 14px;
+}
+
+.copyright {
+  float: left;
+}
+
+.footer__navi {
+  float: right;
+}
+
+.footer__navi__list {
+  display: inline-block;
+}
+
+.footer__navi__link {
+  text-decoration: none;
+  color:  #506a85;
 }
