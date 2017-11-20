@@ -38,52 +38,36 @@ input, button {
 
 .contact {
   font-size: 12px;
-  width: 247px;
   margin: 0 auto;
 }
 
-.contact__contents {
-  display: inline-block;
-  margin-left: 26px;
-}
-
-.contact__contents:first-child {
-  margin-left: 0;
-}
-
 .email__icon {
-  display: inline-block;
-  vertical-align: middle;
-  height: 15px;
-  margin-right: 5px;
-  background: url(../img/header/icon-mail-on.png) no-repeat;
-}
-
-.tel__icon {
-  display: inline-block;
-  vertical-align: middle;
-  height: 15px;
-  margin-right: 5px;
-  background: url(../img/header/icon-tel-on.png) no-repeat;
-}
-
-.email__icon:hover, .tel__icon:hover {
-  background-color: transparent;
-}
-
-.email__icon:hover img, .tel__icon:hover img {
-  visibility: hidden;
-}
-
-.contact__contents__txt {
+  padding-left: 20px;
   color: #506a85;
   display: inline-block;
   vertical-align: middle;
   height: 15px;
+  background: url(../img/header/icon-mail-off.png) no-repeat;
 }
 
-.contact__contents__txt:hover {
+.email__icon:hover {
   color: #00bc9c;
+  background: url(../img/header/icon-mail-on.png) no-repeat;
+}
+
+.tel__icon {
+  padding-left: 20px;
+  color: #506a85;
+  display: inline-block;
+  vertical-align: middle;
+  height: 15px;
+  margin-left: 26px;
+  background: url(../img/header/icon-tel-off.png) no-repeat;
+}
+
+.tel__icon:hover {
+  color: #00bc9c;
+  background: url(../img/header/icon-tel-on.png) no-repeat;
 }
 
 /* ==========================================
@@ -164,9 +148,12 @@ input, button {
 
 .logo {
   display: inline-block;
-  opacity: 0.6;
   position: absolute;
   left: 169px;
+}
+
+.logo:hover {
+  opacity: .6
 }
 
 .navibar__contents {
