@@ -504,10 +504,51 @@ input, button {
 
 .footer__contact {
   margin-bottom: 10px;
-  color: #a3b1bf;
 }
 
-.footer__contact__img {
+.footer__contact__email {
+  padding-left: 20px;
+  color: #a3b1bf;
+  display: inline-block;
+  vertical-align: middle;
+  height: 15px;
+  background: url(../img/footer/icon-mail-off.png) no-repeat;
+}
+
+.footer__contact__email:hover {
+  color: #00bc9c;
+  background: url(../img/footer/icon-mail-on.png) no-repeat;
+}
+
+.footer__contact__tel {
+  padding-left: 20px;
+  color: #a3b1bf;
+  display: inline-block;
+  vertical-align: middle;
+  height: 15px;
+  background: url(../img/footer/icon-tel-off.png) no-repeat;
+}
+
+.footer__contact__tel:hover {
+  color: #00bc9c;
+  background: url(../img/footer/icon-tel-on.png) no-repeat;
+}
+
+.footer__contact__address {
+  padding-left: 20px;
+  color: #a3b1bf;
+  display: inline-block;
+  vertical-align: middle;
+  height: 15px;
+  background: url(../img/footer/icon-address-off.png) no-repeat;
+}
+
+.footer__contact__address:hover {
+  color: #00bc9c;
+  background: url(../img/footer/icon-address-on.png) no-repeat;
+}
+
+/*.footer__contact__img {
   margin-right: 5px;
 }
 
@@ -536,7 +577,7 @@ input, button {
 
 .footer__contact:hover .footer__contact__txt {
   color: #00bc9c;
-}
+}*/
 
 .form__box {
   position: relative;
