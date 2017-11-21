@@ -548,6 +548,11 @@ input, button {
   border: none;
   padding: 10px;
   box-sizing: border-box;
+  background: #708090;
+}
+
+::-webkit-input-placeholder {
+  color: #a9a9a9;
 }
 
 .form__btn {
