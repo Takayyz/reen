@@ -548,37 +548,6 @@ input, button {
   background: url(../img/footer/icon-address-on.png) no-repeat;
 }
 
-/*.footer__contact__img {
-  margin-right: 5px;
-}
-
-.footer__contact__address {
-  display: inline-block;
-  background: url(../img/footer/icon-address-on.png) no-repeat;
-}
-
-.footer__contact__tel {
-  display: inline-block;
-  background: url(../img/footer/icon-tel-on.png) no-repeat;
-}
-
-.footer__contact__mail {
-  display: inline-block;
-  background: url(../img/footer/icon-mail-on.png) no-repeat;
-}
-
-.footer__contact:hover {
-  background-color: transparent;
-}
-
-.footer__contact:hover img {
-  visibility: hidden;
-}
-
-.footer__contact:hover .footer__contact__txt {
-  color: #00bc9c;
-}*/
-
 .form__box {
   position: relative;
 }
