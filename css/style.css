@@ -272,7 +272,7 @@ input, button {
 }
 
 .btn__txt:hover {
-  transform: translate(0,0.5px);
+  transform: translate(0, .5px);
 }
 /* ==========================================
   row1: main_conversion
@@ -292,7 +292,7 @@ input, button {
 .conversion__txt {
   font-size: 24px;
   color: #a3b1bf;
-  margin: 20px 0 50px 0;
+  margin: 20px 0 50px;
 }
 
 .conversion__btn {
@@ -305,10 +305,6 @@ input, button {
 .row2 {
   background: #fff;
 }
-
-/*.row2__content {
-  margin: 0 auto;
-}*/
 
 .content__box {
   display: inline-block;
@@ -327,7 +323,7 @@ input, button {
 }
 
 .content__passion {
-    width: 289px;
+  width: 289px;
 }
 
 .content__creativity {
@@ -397,7 +393,7 @@ input, button {
 }
 
 .work__main:hover .overlay, .footer__latest__works:hover .overlay {
-  opacity: 0.9;
+  opacity: .9;
 }
 
 .work__main__btm {
@@ -431,7 +427,7 @@ input, button {
 }
 
 .work__sub:hover .overlay {
-  opacity: 0.9;
+  opacity: .9;
 }
 
 .overlay__sub {
@@ -466,7 +462,7 @@ input, button {
 }
 
 .footer__content__box:first-child {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .footer__content__title {
@@ -496,15 +492,15 @@ input, button {
   position: relative;
 }
 
- .works__top {
+.works__top {
   margin-bottom: 3px;
- }
+}
 
- .footer__overlay__txt {
-   position: absolute;
-   top: 42%;
-   left: 48%;
- }
+.footer__overlay__txt {
+  position: absolute;
+  top: 42%;
+  left: 48%;
+}
 
 .footer__contact {
   margin-bottom: 10px;
