@@ -74,7 +74,7 @@ input, button {
   header_sns
 ========================================== */
 .sns__link {
-  height: 35px;
+  text-align: right;
 }
 
 .sns__link > li {
@@ -83,53 +83,88 @@ input, button {
   height: 35px;
   width: 32px;
   position: relative;
-}
-
-.sns__link > li:hover img:first-child {
-  visibility: hidden;
+  vertical-align: bottom;
 }
 
 .sns__content {
   display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.sns__link__icon {
+  width: 15px;
+  height: 11px;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
+  top: 12px;
+  left: 13px;
 }
 
-.front__icon {
-  z-index: 1;
+.sns__link__fb {
+  background: url(../img/header/icon-facebook-off.png) no-repeat;
 }
 
-.sns__link__fb:hover {
+.fb__box:hover {
   background-color: #4668b3;
 }
 
-.sns__link__ggl:hover {
+.fb__box:hover .sns__link__fb {
+  background: url(../img/header/icon-facebook-on.png) no-repeat;
+}
+
+.sns__link__ggl {
+  background: url(../img/header/icon-google-off.png) no-repeat;
+}
+
+.ggl__box:hover {
   background-color: #de5745;
 }
 
-.sns__link__twt:hover {
+.ggl__box:hover .sns__link__ggl {
+  background: url(../img/header/icon-google-on.png) no-repeat;
+}
+
+.sns__link__twt {
+  background: url(../img/header/icon-twitter-off.png) no-repeat;
+}
+
+.twt__box:hover {
   background-color: #2fbbed;
 }
 
-.sns__link__pinter:hover {
+.twt__box:hover .sns__link__twt {
+  background: url(../img/header/icon-twitter-on.png) no-repeat;
+}
+
+.sns__link__pinter {
+  background: url(../img/header/icon-pinterest-off.png) no-repeat;
+}
+
+.pinter__box:hover {
   background-color: #d94348;
 }
 
-.sns__link__behance:hover {
+.pinter__box:hover .sns__link__pinter {
+  background: url(../img/header/icon-pinterest-on.png) no-repeat;
+}
+
+.sns__link__behance {
+  background: url(../img/header/icon-behance-off.png) no-repeat;
+}
+
+.behance__box:hover {
   background-color: #3079ff;
 }
 
-.sns__link__drbl:hover {
+.behance__box:hover .sns__link__behance {
+  background: url(../img/header/icon-behance-on.png) no-repeat;
+}
+
+.sns__link__drbl {
+  background: url(../img/header/icon-dribbble-off.png) no-repeat;
+}
+
+.drbl__box:hover {
   background-color: #eb6397;
+}
+
+.drbl__box:hover .sns__link__drbl {
+  background: url(../img/header/icon-dribbble-on.png) no-repeat;
 }
 
 /* ==========================================
